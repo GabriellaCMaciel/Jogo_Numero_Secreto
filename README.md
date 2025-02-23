@@ -22,7 +22,7 @@
 ## 📸 Demonstração
 <img src="src/images/telaInicial.png" width="600px">  
 <img src="src/images/telaVitoria.png" width="600px">    
-[🎥 Veja o jogo em ação]
+[🎥 Veja o jogo em ação](https://github.com/GabriellaCMaciel/Jogo_Numero_Secreto/blob/main/src/video/jogoNumeroSecreto.mp4)
 
 ## 🛠️ Tecnologias Utilizadas
 HTML5  
