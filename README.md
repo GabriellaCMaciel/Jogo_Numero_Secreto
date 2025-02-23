@@ -9,6 +9,7 @@
 ✅ Design responsivo para todos os dispositivos  
 ✅ Efeito de pulsação na luz ao ganhar  
 ✅ Botão para reiniciar o jogo após a vitória  
+✅ Fundo gradiente animado
 
 ## 🎮 Como jogar?
 1️⃣ Digite um número entre 1 e 100 no campo de entrada.  
