@@ -41,6 +41,6 @@ JavaScript
  - [ ] Adicionar um cronômetro para tornar o jogo mais desafiador
  - [ ] Criar um ranking de pontuação
 ## 👩‍💻 Autora
-Gabriella Maciel  
+Gabriella C Maciel  
 🔗 [LinkedIn](https://www.linkedin.com/in/gabriellacmaciel/)  
 🐙 [GitHub](https://github.com/GabriellaCMaciel)  
