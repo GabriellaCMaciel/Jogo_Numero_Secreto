@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1), rgb(85, 17, 221), rgba(157, 127, 207, 1));
+    background-size: 400% 400%;
+    animation: gradientAnim 10s ease infinite;
+    color: #fff;
+    font-family: "Titillium Web", serif;
+}
+
+@keyframes gradientAnim {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+    padding: 3rem;
+    background-color: oklch(0.257 0.09 281.288);
+    gap: 30px;
+    border: 4px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    transition: box-shadow 0.3s ease-in-out;
+    width: 50%;
+    max-width: 600px;
+    min-width: 400px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 2rem;
+        min-width: 280px;
+    }
+    input, #tentar, #jogarNovamente {
+        width: 100%;
+        max-width: 200px;
+    }
+    #feedback {
+        font-size: 18px;
+    }
+}
+
+/* Efeito de pulsação ao ganhar */
+@keyframes pulseGlow {
+    0% {box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);}
+
+    50% {box-shadow: 0 0 20px rgba(255, 255, 255, 1);}
+
+    100% {box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);}
+}
+
+/* Classe para ativar o efeito ao ganhar */
+.ganhou {
+    animation: pulseGlow 1s infinite alternate;
+}
+
+.hed {
+    font-size: 1.1rem;
+}
+
+strong {
+    color: #e5d9f2;
+    font-weight: 700;
+}
+
+input {
+    border-radius: 5px;
+    width: 180px;
+    height: 30px;
+    border: 2px solid oklch(0.702 0.183 293.541);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#tentar {
+    border-radius: 5px;
+    width: 55px;
+    height: 30px;
+    border: 2px solid oklch(0.702 0.183 293.541);
+    margin: 15px;
+    background-color: #e5d9f2;
+    cursor: pointer;
+}
+
+#tentar:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(94, 34, 211, 1);
+    background-color: #fff;
+}
+
+#feedback {
+    font-size: 20px;
+    white-space: nowrap; /*  impede que o texto quebre em várias linhas */
+    overflow: hidden; /* esconde qualquer texto extra. */
+    border-right: 2px solid black;
+    padding-right: 5px;
+    width: 0;
+    /* Inicialmente sem largura */
+}
+
+#jogarNovamente {
+    display: none;
+    border-radius: 5px;
+    width: 115px;
+    height: 30px;
+    border: 2px solid oklch(0.702 0.183 293.541);
+    margin: 15px;
+    background-color: #e5d9f2;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#jogarNovamente:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(94, 34, 211, 1);
+}
