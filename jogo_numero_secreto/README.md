@@ -20,20 +20,20 @@
 
 ## 📸 Demonstração
 🖼️ Capturas de Tela
-<img src="caminho/para/screenshot1.png" width="600px"> <img src="caminho/para/screenshot2.png" width="600px">  
+<img src="src/images/telaInicial.png" width="600px"> <img src="src/images/telaVitoria.png" width="600px">  
 🎥 Vídeo Demonstrativo
 
 ## 🛠️ Tecnologias Utilizadas
 HTML5  
 CSS3 (incluindo responsividade)  
-JavaScript puro  
+JavaScript   
 
 ## 🚀 Como executar o projeto?
 1️⃣ Clone este repositório:
-`git clone https://github.com/seu-usuario/jogo-numero-secreto.git`
+`git clone https://github.com/GabriellaCMaciel/Jogo_Numero_Secreto.git`
 
 2️⃣ Acesse a pasta do projeto:
-`cd jogo-numero-secreto`
+`cd jogo_numero_secreto`
 
 3️⃣ Abra o arquivo `index.html` no navegador.
 
