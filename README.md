@@ -20,8 +20,8 @@
 6️⃣ Clique em "Jogar Novamente" para reiniciar o jogo.  
 
 ## 📸 Demonstração
-<img src="jogo_numero_secreto/src/images/telaInicial.png" width="600px">  
-<img src="jogo_numero_secreto/src/images/telaVitoria.png" width="600px">    
+<img src="src/images/telaInicial.png" width="600px">  
+<img src="src/images/telaVitoria.png" width="600px">    
 
 ## 🛠️ Tecnologias Utilizadas
 HTML5  
@@ -32,10 +32,7 @@ JavaScript
 1️⃣ Clone este repositório:
 `git clone https://github.com/GabriellaCMaciel/Jogo_Numero_Secreto.git`
 
-2️⃣ Acesse a pasta do projeto:
-`cd jogo_numero_secreto`
-
-3️⃣ Abra o arquivo `index.html` no navegador.
+2️⃣  Abra o arquivo `index.html` no navegador.
 
 ## 🔥 Melhorias futuras
  - [ ] Adicionar níveis de dificuldade
