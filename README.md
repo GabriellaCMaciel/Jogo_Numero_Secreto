@@ -24,9 +24,9 @@
 <img src="src/images/telaVitoria.png" width="600px">    
 
 ## 🛠️ Tecnologias Utilizadas
-HTML5  
-CSS3    
-JavaScript   
+HTML5: Estruturação da página web.  
+CSS3: Estilização e design responsivo.  
+JavaScript: Lógica de programação e interatividade.
 
 ## 🚀 Como executar o projeto?
 1️⃣ Clone este repositório:
