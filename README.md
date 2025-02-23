@@ -22,7 +22,7 @@
 ## 📸 Demonstração
 <img src="src/images/telaInicial.png" width="600px">  
 <img src="src/images/telaVitoria.png" width="600px">    
-<video src="src/video/jogoNumeroSecreto.mp4" width="600px"></video>
+<video <source src="src/video/jogoNumeroSecreto.mp4"/> width="600px"></video>
 
 ## 🛠️ Tecnologias Utilizadas
 HTML5  
