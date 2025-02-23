@@ -21,11 +21,10 @@
 ## 📸 Demonstração
 <img src="jogo_numero_secreto/src/images/telaInicial.png" width="600px">  
 <img src="jogo_numero_secreto/src/images/telaVitoria.png" width="600px">    
-🎥 Vídeo Demonstrativo
 
 ## 🛠️ Tecnologias Utilizadas
 HTML5  
-CSS3 (incluindo responsividade)  
+CSS3    
 JavaScript   
 
 ## 🚀 Como executar o projeto?
