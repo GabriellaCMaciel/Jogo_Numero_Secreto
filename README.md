@@ -40,7 +40,7 @@ JavaScript
  - [ ] Adicionar níveis de dificuldade
  - [ ] Adicionar um cronômetro para tornar o jogo mais desafiador
  - [ ] Criar um ranking de pontuação
-## 👨‍💻 Autor
+## 👩‍💻 Autora
 Gabriella Maciel  
 🔗 [LinkedIn](https://www.linkedin.com/in/gabriellacmaciel/)  
 🐙 [GitHub](https://github.com/GabriellaCMaciel)  
