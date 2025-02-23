@@ -20,7 +20,7 @@
 
 ## 📸 Demonstração
 🖼️ Capturas de Tela
-<img src="src/images/telaInicial.png" width="600px"> <img src="src/images/telaVitoria.png" width="600px">  
+<img src="jogo_numero_secreto/src/images/telaInicial.png" width="600px"> <img src="jogo_numero_secreto/src/images/telaVitoria.png" width="600px">  
 🎥 Vídeo Demonstrativo
 
 ## 🛠️ Tecnologias Utilizadas
